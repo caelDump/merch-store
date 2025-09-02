@@ -1,0 +1,13 @@
+:root{
+  --bg: #F8FAFC;
+  --card: #ffffff;
+  --muted:#6B7280;
+  --text:#0F172A;
+  --accent:#2563EB; 
+  --accent-2:#06B6D4; 
+  --radius:12px;
+  font-family: 'Inter', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+*{box-sizing:border-box}
+body{ background:var(--bg); color:var(--text); font-family:inherit; margin:0; }
+.container{ max-width:1100px; margin:0 auto; padding:0 16px; }
